@@ -1,7 +1,9 @@
 .meetVideoContainer {
     position: relative;
     height: 100vh;
-    background: rgb(1, 4, 48);
+background: url('/trial1.gif') no-repeat center center;
+background-size: cover;
+
 }
 
 .meetUserVideo {
@@ -44,8 +46,9 @@
     height: 90vh;
     right: 0;
     background: white;
+    color: black;
     border-radius: 10px;
-    width: 30vw;
+    width: 20vw;
     padding-inline: 20px;
 }
 
@@ -58,4 +61,19 @@
 .chattingArea {
     position: absolute;
     bottom: 0;
+}
+
+.lobby {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 2rem 4rem;
+  gap: 1.5rem;  
+  height: 100vh;
+}
+.lobby video {
+  width: 320px;
+  height: 240px;
+  border-radius: 8px;
 }
