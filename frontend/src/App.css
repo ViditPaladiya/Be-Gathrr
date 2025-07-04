@@ -1,7 +1,7 @@
 .landingPageContainer {
   width: 100vw;
   height: 100vh;
-  background: url("/public/background.jpg");
+  background: url("/public/background.png");
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
@@ -94,7 +94,6 @@
   height: auto;
   border-radius: 20px;
 }
-
 .landingFooter {
   width: 100%;
   text-align: center;

@@ -24,20 +24,20 @@ function HomeComponent() {
 
             <div className="navBar">
 
-                <div style={{    display: "flex", alignItems: "center" }}>
-                    
+                <div style={{ display: "flex", alignItems: "center" }}>
+
                     <h2>Be-Gathr</h2>
                 </div>
 
-                <div style={{ display: "flex", alignItems: "center" ,  marginTop: "20px"  }}>
-                    {/* <IconButton onClick={
+                <div style={{ display: "flex", alignItems: "center" }}>
+                    <IconButton onClick={
                         () => {
                             navigate("/history")
                         }
                     }>
                         <RestoreIcon />
                     </IconButton>
-                    <p>History</p> */}
+                    <p>History</p>
 
                     <Button onClick={() => {
                         localStorage.removeItem("token")
@@ -54,8 +54,8 @@ function HomeComponent() {
             <div className="meetContainer">
                 <div className="leftPanel">
                     <div>
-                        <h2><b>Make your own code</b></h2><h3>Privacy comes here </h3>
-                         <br></br>
+                        <h2>Use your own code- Privacy cames here</h2>
+
                         <div style={{ display: 'flex', gap: "10px" }}>
 
                             <TextField onChange={e => setMeetingCode(e.target.value)} id="outlined-basic" label="Meeting Code" variant="outlined" />
