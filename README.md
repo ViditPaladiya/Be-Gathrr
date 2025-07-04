@@ -22,6 +22,7 @@ This project is a simple implementation of peer-to-peer video calls using WebRTC
 ✅ Real-time video and audio communication between peers
 ✅ Room-based connection: generate/join unique meeting rooms
 ✅ Uses WebRTC for peer-to-peer media exchange
+✅ User authentication and data storage with MongoDB
 ✅ Socket.io handles signaling and room events
 ✅ Responsive and clean UI (customize as needed)
 
@@ -39,6 +40,13 @@ WebRTC for peer-to-peer media streams
 
 HTML/CSS/JavaScript
 
+MongoDB — stores user authentication data & (future) meeting history
+
+
+
+
+
+![image](https://github.com/user-attachments/assets/e90ae313-9ff5-443c-b921-ce7272b797e3)
 
 
 
