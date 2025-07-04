@@ -1,6 +1,6 @@
 📞 BeGathr Video Call App
 
-Welcome to BeGathr — a real-time video calling web app built with Node.js, Express, and Socket.io.
+Welcome to BeGathr — a real-time video calling web app built with Node.js, and Socket.io.
 
 
 
