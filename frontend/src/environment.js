@@ -1,8 +1,12 @@
 let IS_PROD = true;
-const server = IS_PROD ?
 
-"https://be-gathrr.onrender.com" :
+const servers = IS_PROD ? 
 
-   "http://localhost:8000"
+ "https://be-gathrr.onrender.com":
 
-   export default server;
+
+   "https://localhost:8000"
+
+
+
+export default servers;

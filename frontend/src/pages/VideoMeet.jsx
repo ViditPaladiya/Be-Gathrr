@@ -17,13 +17,14 @@ import StopScreenShareIcon from '@mui/icons-material/StopScreenShare'
 import { CallEnd } from '@mui/icons-material';
 //import { Socket } from 'dgram';
 //import { connect } from 'http2';
+import servers from '../environment';
 
 
 
 
 
 
-const server_url = "http://localhost:8000";
+const server_url = servers;
 
 var connections = {};
 
